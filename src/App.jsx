@@ -58,7 +58,7 @@ const App = () => {
           <div className="btn-div">
             <button type="submit" className="submit-btn">Get Shades</button>
 
-            <button type="submit" className="submit-btn" onClick={handlePaste}>Paste Code</button>
+            <button type="button" className="submit-btn" onClick={handlePaste}>Paste Code</button>
           </div>
         </form>
       </div>
